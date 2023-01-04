@@ -1,1 +1,87 @@
+body{
+    font-size: 20px;
+    font-family: verdana;
+    color: black;
+    background-color: #9686ed;
+}
 
+#header{
+    background-color: #2E8B57;
+    border-radius: 0;
+    border: 0;
+}
+
+#header button{
+    margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #F4A460;
+}
+
+.navbar-collapse{
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a{
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+}
+
+.navbar-brand h1{
+    color: #deee4b;
+    font-family: georgia;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #D8BFD8;
+}
+
+#nav-list{
+    background-color: #FA8072;
+}
+
+#nav-list a{
+    font-weight: bolder;
+    color: #000080;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover{
+    color: #2F4F4F;
+    background-color: limegreen;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #7d1913;
+}
+
+#main-content{
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+#main-content h2{
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken, #beef, #sushi{
+    width: 100%;
+    padding: 22px;
+    background-color: #99ed7b;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #18580b;
+}
